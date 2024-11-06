@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Pendu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   
+    <main>
+        <div id="game-container">
+            <h1>Jeu du Pendu</h1>
+            <button id="start-button">Commencer</button>
+            
+            <div id="game">
+                <div class="left-block">
+                    <div id="word-game"></div>
+                    <div id="letter-buttons"></div>
+                </div>
+                
+                <div id="hangman">
+                    <img class="piece" id="piece-1" src="assets/image/head.png" alt="">
+                    <img class="piece" id="piece-2" src="assets/image/cou.png" alt="">
+                    <img class="piece" id="piece-3" src="assets/image/torse.png" alt="">
+                    <img class="piece" id="piece-4" src="assets/image/hanches.png" alt="">
+                    <img class="piece" id="piece-5" src="assets/image/jambes.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div id="message-container">
+            <div id="message"></div>
+            
+            <button id="restart-button" onclick="startGame()">Recommencer</button>
+
+        </div>
+       
+
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

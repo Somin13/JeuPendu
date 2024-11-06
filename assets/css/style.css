@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Leckerli+One&family=Lemon&family=Luxurious+Roman&family=Nanum+Brush+Script&family=Nosifer&family=Reggae+One&display=swap');
+
+body{
+    background-color: #FE3555 ;
+}
+
+#game{
+display: flex;
+flex-wrap: nowrap;
+}
+
+
+
+.left-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#hangman{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#hangman img{
+    width: 60%;
+}
+
+#letter-buttons{
+    background-color: #1d1e34b3;
+    
+}
+
+#letter-buttons button{
+    background-color: #1d1e34b3;
+    color: #FE3555;
+    font-size: 25px;
+    gap: 30%;
+}
+
+h1{
+    font-family: "Nosifer", serif;
+}
+
+/* body {
+   
+    margin: 0;
+    background-color: #FE3555 ;
+  }
+  
+  #game-container {
+    text-align: center;
+    display: flex;
+  }
+  
+  #word-game {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  #letter-buttons button {
+    margin: 5px;
+  }
+  
+  #hangman {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 20px auto;
+  }
+  
+  .piece {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../image/dc76ab55772024d1cf3a9230b63e6c18.jpg);
+
+  }
+  
+  #piece-1 { clip-path: polygon(0 0, 50% 0, 50% 50%, 0 50%); }
+  #piece-2 { clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 50%); }
+  #piece-3 { clip-path: polygon(0 50%, 50% 50%, 50% 100%, 0 100%); }
+  #piece-4 { clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 50% 100%); }
+  #piece-5 { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); filter: grayscale(100%); }
+  
+  #message {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  #restart-button {
+    margin-top: 20px;
+  } */
